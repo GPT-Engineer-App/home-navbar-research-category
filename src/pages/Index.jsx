@@ -66,11 +66,11 @@ const Index = () => {
   return (
     <Container maxW="container.xl">
       <Navbar />
-      <VStack spacing={8} mt={8}>
+      <HStack spacing={8} mt={8} wrap="wrap" justify="center">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
-      </VStack>
+      </HStack>
     </Container>
   );
 };
