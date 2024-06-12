@@ -24,6 +24,13 @@ const products = [
     price: "$150",
     image: "https://images.unsplash.com/photo-1608384156808-418b5c079968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtaWNyb3dhdmUlMjBvdmVufGVufDB8fHx8MTcxODE4Mzc4OXww&ixlib=rb-4.0.3&q=80&w=1080",
   },
+  {
+    id: 4,
+    name: "Air Conditioner",
+    description: "Cool your room with this efficient air conditioner.",
+    price: "$400",
+    image: "https://images.unsplash.com/photo-1604147706284-0a4b6d4b9b8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxhaXIlMjBjb25kaXRpb25lcnxlbnwwfHx8fDE3MTgxODM3ODl8MA&ixlib=rb-4.0.3&q=80&w=1080",
+  },
 ];
 
 const Navbar = () => {
